@@ -514,6 +514,12 @@ async function dokumanSablonSayfasiniYukle() {
       `;
     }).join('');
 
+    // Eğer "Değerlendirme Ölçekleri" kategorisinde isek rehberi göster
+    if (kategori.id === 'degerlendirme-olcekleri') {
+      const rehber = document.getElementById('rehber-bolum');
+      if (rehber) rehber.style.display = 'block';
+    }
+
   } catch (hata) {
     console.error(hata);
     hataGoster();

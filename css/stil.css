@@ -250,9 +250,124 @@ button {
   color: var(--gri-400);
 }
 
-.kart-pasif {
-  cursor: not-allowed;
-  opacity: 0.4;
+/* === REHBER BÖLÜMÜ === */
+.rehber-baslik {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 4rem;
+  border-top: 1px solid var(--gri-200);
+}
+
+.rehber-h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  margin: 1rem 0 0.5rem;
+  line-height: 1.05;
+}
+
+.rehber-h2 em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.rehber-adimlar {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  margin: 3rem 0;
+}
+
+.rehber-adim {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.rehber-adim:nth-child(even) {
+  grid-template-columns: 1fr 1fr;
+  direction: rtl;
+}
+
+.rehber-adim:nth-child(even) > * {
+  direction: ltr;
+}
+
+.rehber-adim img {
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--gri-200);
+  border-radius: 4px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.06);
+}
+
+.rehber-adim figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding-top: 2rem;
+}
+
+.rehber-adim .adim-numara {
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  font-style: italic;
+  color: var(--gri-300);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.rehber-adim figcaption strong {
+  font-family: var(--font-serif);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+}
+
+.rehber-adim figcaption span:not(.adim-numara) {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--gri-600);
+}
+
+.rehber-not {
+  background: var(--gri-50);
+  border-left: 3px solid var(--gri-900);
+  padding: 1.5rem 2rem;
+  margin-top: 3rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--gri-700);
+}
+
+.rehber-not strong {
+  color: var(--gri-900);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .rehber-adim,
+  .rehber-adim:nth-child(even) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    direction: ltr;
+  }
+
+  .rehber-adim figcaption {
+    padding-top: 0;
+  }
+
+  .rehber-adim .adim-numara {
+    font-size: 3rem;
+  }
+
+  .rehber-adim figcaption strong {
+    font-size: 1.5rem;
+  }
 }
 
 .kart-buyuk {
@@ -277,6 +392,11 @@ button {
   .kart-buyuk .kart-baslik {
     font-size: 1.65rem;
   }
+}
+
+.kart-pasif {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 .kart-pasif::after {
