@@ -1,0 +1,441 @@
+/* === KAĞIT - Stil Dosyası === */
+/* Editorial, refined, siyah-beyaz */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Inter+Tight:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --siyah: #0a0a0a;
+  --beyaz: #ffffff;
+  --gri-100: #f5f5f4;
+  --gri-200: #e7e5e4;
+  --gri-300: #d6d3d1;
+  --gri-400: #a8a29e;
+  --gri-500: #78716c;
+  --gri-600: #57534e;
+  --gri-700: #44403c;
+  --gri-800: #292524;
+  --gri-900: #1c1917;
+
+  --font-baslik: 'Fraunces', Georgia, serif;
+  --font-govde: 'Inter Tight', -apple-system, sans-serif;
+
+  --gecis: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  --gecis-hizli: 0.2s ease-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-govde);
+  background: var(--beyaz);
+  color: var(--siyah);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* === Üst Bar === */
+.ust-bar {
+  border-bottom: 1px solid var(--gri-200);
+  padding: 1.25rem 0;
+  position: sticky;
+  top: 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 100;
+}
+
+.ust-bar-icerik {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--font-baslik);
+  font-weight: 700;
+  font-size: 1.5rem;
+  font-style: italic;
+  letter-spacing: -0.02em;
+  font-variation-settings: 'opsz' 144;
+}
+
+.logo-alt {
+  font-family: var(--font-govde);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gri-500);
+  margin-left: 0.5rem;
+  font-style: normal;
+}
+
+/* === Ana Bölüm === */
+.ana {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* === Geri Butonu === */
+.geri {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--gri-500);
+  margin-bottom: 2rem;
+  transition: color var(--gecis-hizli);
+}
+
+.geri:hover {
+  color: var(--siyah);
+}
+
+.geri::before {
+  content: '←';
+  font-size: 1rem;
+}
+
+/* === Sayfa Başlığı === */
+.sayfa-baslik {
+  margin-bottom: 3.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--gri-200);
+}
+
+.kucuk-etiket {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gri-500);
+  margin-bottom: 0.75rem;
+}
+
+.buyuk-baslik {
+  font-family: var(--font-baslik);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variation-settings: 'opsz' 144;
+}
+
+.buyuk-baslik em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.alt-baslik {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  color: var(--gri-600);
+  max-width: 600px;
+}
+
+/* === Kartlar Grid === */
+.kart-grid {
+  display: grid;
+  gap: 1px;
+  background: var(--gri-200);
+  border: 1px solid var(--gri-200);
+}
+
+.kart-grid.kolon-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.kart-grid.kolon-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.kart-grid.kolon-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 768px) {
+  .kart-grid.kolon-3,
+  .kart-grid.kolon-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .kart-grid.kolon-2,
+  .kart-grid.kolon-3,
+  .kart-grid.kolon-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* === Tek Kart === */
+.kart {
+  background: var(--beyaz);
+  padding: 2rem 1.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+  position: relative;
+  transition: background var(--gecis-hizli);
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
+.kart:hover:not(.kart-pasif) {
+  background: var(--siyah);
+  color: var(--beyaz);
+}
+
+.kart-numara {
+  font-family: var(--font-baslik);
+  font-size: 0.85rem;
+  color: var(--gri-400);
+  font-variant-numeric: tabular-nums;
+}
+
+.kart:hover:not(.kart-pasif) .kart-numara {
+  color: var(--gri-500);
+}
+
+.kart-baslik {
+  font-family: var(--font-baslik);
+  font-size: 1.65rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-top: auto;
+  font-variation-settings: 'opsz' 144;
+}
+
+.kart-aciklama {
+  font-size: 0.85rem;
+  color: var(--gri-500);
+  margin-top: 0.5rem;
+  line-height: 1.4;
+}
+
+.kart:hover:not(.kart-pasif) .kart-aciklama {
+  color: var(--gri-400);
+}
+
+.kart-pasif {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.kart-pasif::after {
+  content: 'Yakında';
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gri-500);
+  border: 1px solid var(--gri-300);
+  padding: 0.2rem 0.5rem;
+  border-radius: 999px;
+}
+
+/* === PDF Kart (Konu sayfası) === */
+.pdf-kart {
+  background: var(--beyaz);
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 200px;
+  text-align: left;
+  width: 100%;
+  transition: background var(--gecis-hizli);
+}
+
+.pdf-kart:hover {
+  background: var(--gri-100);
+}
+
+.pdf-ust {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pdf-numara {
+  font-family: var(--font-baslik);
+  font-size: 2rem;
+  font-weight: 300;
+  font-style: italic;
+  font-variation-settings: 'opsz' 144;
+  color: var(--siyah);
+  line-height: 1;
+}
+
+.pdf-soru-sayi {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gri-500);
+  border: 1px solid var(--gri-300);
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+}
+
+.pdf-baslik {
+  font-family: var(--font-baslik);
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin-top: auto;
+}
+
+.pdf-indir {
+  margin-top: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--siyah);
+  border-top: 1px solid var(--gri-200);
+  padding-top: 1rem;
+  transition: gap var(--gecis-hizli);
+}
+
+.pdf-indir::after {
+  content: '↓';
+  font-size: 1rem;
+  transition: transform var(--gecis-hizli);
+}
+
+.pdf-kart:hover .pdf-indir {
+  gap: 0.75rem;
+}
+
+.pdf-kart:hover .pdf-indir::after {
+  transform: translateY(2px);
+}
+
+/* === Boş Durum === */
+.bos-durum {
+  text-align: center;
+  padding: 5rem 2rem;
+  color: var(--gri-500);
+}
+
+.bos-durum-baslik {
+  font-family: var(--font-baslik);
+  font-size: 1.5rem;
+  color: var(--siyah);
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+/* === Alt Bilgi === */
+.alt-bilgi {
+  border-top: 1px solid var(--gri-200);
+  padding: 2rem 1.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--gri-500);
+  letter-spacing: 0.05em;
+}
+
+.alt-bilgi-icerik {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.alt-bilgi p + p {
+  margin-top: 0.5rem;
+}
+
+/* === Yükleniyor === */
+.yukleniyor {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--gri-400);
+  font-style: italic;
+  font-family: var(--font-baslik);
+}
+
+/* === Animasyonlar === */
+@keyframes yumusak-giris {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.kart, .pdf-kart {
+  animation: yumusak-giris 0.5s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.kart:nth-child(1), .pdf-kart:nth-child(1) { animation-delay: 0.05s; }
+.kart:nth-child(2), .pdf-kart:nth-child(2) { animation-delay: 0.1s; }
+.kart:nth-child(3), .pdf-kart:nth-child(3) { animation-delay: 0.15s; }
+.kart:nth-child(4), .pdf-kart:nth-child(4) { animation-delay: 0.2s; }
+.kart:nth-child(5), .pdf-kart:nth-child(5) { animation-delay: 0.25s; }
+.kart:nth-child(6), .pdf-kart:nth-child(6) { animation-delay: 0.3s; }
+
+/* === Mobil === */
+@media (max-width: 768px) {
+  .ana {
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  .sayfa-baslik {
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .kart {
+    padding: 1.5rem 1.25rem;
+    min-height: 140px;
+  }
+
+  .kart-baslik {
+    font-size: 1.35rem;
+  }
+
+  .pdf-kart {
+    padding: 1.25rem;
+    min-height: auto;
+  }
+}

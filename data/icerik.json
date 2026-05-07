@@ -1,0 +1,113 @@
+{
+  "siniflar": [
+    {
+      "id": "1-sinif",
+      "ad": "1. Sınıf",
+      "aktif": false,
+      "dersler": []
+    },
+    {
+      "id": "2-sinif",
+      "ad": "2. Sınıf",
+      "aktif": false,
+      "dersler": []
+    },
+    {
+      "id": "3-sinif",
+      "ad": "3. Sınıf",
+      "aktif": false,
+      "dersler": []
+    },
+    {
+      "id": "4-sinif",
+      "ad": "4. Sınıf",
+      "aktif": true,
+      "dersler": [
+        {
+          "id": "matematik",
+          "ad": "Matematik",
+          "aktif": true,
+          "konular": [
+            {
+              "id": "uzunluk-problemleri",
+              "ad": "Uzunluk Problemleri",
+              "aciklama": "Uzunluk ölçülerini karşılaştırma, dönüştürme ve günlük hayat problemleri",
+              "aktif": true,
+              "kagitlar": [
+                {
+                  "id": "uzunluk-1",
+                  "baslik": "Çalışma Kağıdı 1",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-1.pdf"
+                },
+                {
+                  "id": "uzunluk-2",
+                  "baslik": "Çalışma Kağıdı 2",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-2.pdf"
+                },
+                {
+                  "id": "uzunluk-3",
+                  "baslik": "Çalışma Kağıdı 3",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-3.pdf"
+                },
+                {
+                  "id": "uzunluk-4",
+                  "baslik": "Çalışma Kağıdı 4",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-4.pdf"
+                },
+                {
+                  "id": "uzunluk-5",
+                  "baslik": "Çalışma Kağıdı 5",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-5.pdf"
+                }
+              ]
+            },
+            {
+              "id": "kesirler",
+              "ad": "Kesirler",
+              "aciklama": "Kesir kavramı, denk kesirler, kesirlerle işlemler",
+              "aktif": false,
+              "kagitlar": []
+            },
+            {
+              "id": "dogal-sayilar",
+              "ad": "Doğal Sayılar",
+              "aciklama": "Dört basamaklı sayılar, sıralama, basamak değeri",
+              "aktif": false,
+              "kagitlar": []
+            },
+            {
+              "id": "geometri",
+              "ad": "Geometri",
+              "aciklama": "Üçgen, kare, dikdörtgen, açılar",
+              "aktif": false,
+              "kagitlar": []
+            }
+          ]
+        },
+        {
+          "id": "turkce",
+          "ad": "Türkçe",
+          "aktif": false,
+          "konular": []
+        },
+        {
+          "id": "fen-bilimleri",
+          "ad": "Fen Bilimleri",
+          "aktif": false,
+          "konular": []
+        },
+        {
+          "id": "sosyal-bilgiler",
+          "ad": "Sosyal Bilgiler",
+          "aktif": false,
+          "konular": []
+        }
+      ]
+    }
+  ]
+}
