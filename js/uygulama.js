@@ -144,14 +144,86 @@ async function dersSayfasiniYukle() {
         ? `<span class="kart-aciklama">${htmlKacis(konu.aciklama)}</span>`
         : '';
 
+      // YENİ: alt konuları varsa konu.html'e değil alt-konu.html'e git
+      const hedefSayfa = konu.altKonular && konu.altKonular.length > 0
+        ? 'alt-konu.html'
+        : 'konu.html';
+
       return `
         <button
           class="kart ${aktifMi ? '' : 'kart-pasif'}"
-          ${aktifMi ? `onclick="sayfayaGit('konu.html', { sinif: '${sinif.id}', ders: '${ders.id}', konu: '${konu.id}' })"` : 'disabled'}
+          ${aktifMi ? `onclick="sayfayaGit('${hedefSayfa}', { sinif: '${sinif.id}', ders: '${ders.id}', konu: '${konu.id}' })"` : 'disabled'}
         >
           <span class="kart-numara">${numara}</span>
           <div>
             <span class="kart-baslik">${htmlKacis(konu.ad)}</span>
+            ${aciklama}
+          </div>
+        </button>
+      `;
+    }).join('');
+
+  } catch (hata) {
+    console.error(hata);
+    document.getElementById('kart-kapsayici').innerHTML =
+      '<div class="bos-durum"><div class="bos-durum-baslik">Bir şeyler ters gitti</div></div>';
+  }
+}
+
+// YENİ: Alt konu sayfası (Uzunluk Birimleri → Dönüşüm/Problemler gibi)
+async function altKonuSayfasiniYukle() {
+  try {
+    const sinifId = urlParametreAl('sinif');
+    const dersId = urlParametreAl('ders');
+    const konuId = urlParametreAl('konu');
+    const veri = await VeriKaynagi.tumIcerikGetir();
+    const sinif = veri.siniflar.find(s => s.id === sinifId);
+    const ders = sinif?.dersler.find(d => d.id === dersId);
+    const konu = ders?.konular.find(k => k.id === konuId);
+
+    if (!sinif || !ders || !konu) {
+      sayfayaGit('index.html');
+      return;
+    }
+
+    document.getElementById('sayfa-baslik').innerHTML =
+      `<em>${htmlKacis(konu.ad)}</em>`;
+    document.getElementById('sayfa-etiket').textContent =
+      `${sinif.ad} / ${ders.ad} / Alt Konular`;
+    if (konu.aciklama) {
+      document.getElementById('sayfa-alt-baslik').textContent = konu.aciklama;
+    }
+    document.getElementById('geri-link').href =
+      `ders.html?sinif=${sinif.id}&ders=${ders.id}`;
+    document.title = `${konu.ad} — ${ders.ad} — Kağıt`;
+
+    const kapsayici = document.getElementById('kart-kapsayici');
+
+    if (!konu.altKonular || konu.altKonular.length === 0) {
+      kapsayici.innerHTML = `
+        <div class="bos-durum">
+          <div class="bos-durum-baslik">Henüz hazır değil</div>
+          <p>Bu konunun alt konuları yakında eklenecek.</p>
+        </div>
+      `;
+      return;
+    }
+
+    kapsayici.innerHTML = konu.altKonular.map((altKonu, index) => {
+      const numara = String(index + 1).padStart(2, '0');
+      const aktifMi = altKonu.aktif;
+      const aciklama = altKonu.aciklama
+        ? `<span class="kart-aciklama">${htmlKacis(altKonu.aciklama)}</span>`
+        : '';
+
+      return `
+        <button
+          class="kart ${aktifMi ? '' : 'kart-pasif'}"
+          ${aktifMi ? `onclick="sayfayaGit('konu.html', { sinif: '${sinif.id}', ders: '${ders.id}', konu: '${konu.id}', altKonu: '${altKonu.id}' })"` : 'disabled'}
+        >
+          <span class="kart-numara">${numara}</span>
+          <div>
+            <span class="kart-baslik">${htmlKacis(altKonu.ad)}</span>
             ${aciklama}
           </div>
         </button>
@@ -170,6 +242,7 @@ async function konuSayfasiniYukle() {
     const sinifId = urlParametreAl('sinif');
     const dersId = urlParametreAl('ders');
     const konuId = urlParametreAl('konu');
+    const altKonuId = urlParametreAl('altKonu'); // YENİ: alt konu desteği
     const veri = await VeriKaynagi.tumIcerikGetir();
     const sinif = veri.siniflar.find(s => s.id === sinifId);
     const ders = sinif?.dersler.find(d => d.id === dersId);
@@ -180,20 +253,34 @@ async function konuSayfasiniYukle() {
       return;
     }
 
-    document.getElementById('sayfa-baslik').innerHTML =
-      `<em>${htmlKacis(konu.ad)}</em>`;
-    document.getElementById('sayfa-etiket').textContent =
-      `${sinif.ad} / ${ders.ad}`;
-    if (konu.aciklama) {
-      document.getElementById('sayfa-alt-baslik').textContent = konu.aciklama;
+    // Eğer alt konu varsa onu kullan, yoksa direkt konunun kendisini kullan
+    let goruntulenecek = konu;
+    let geriLink = `ders.html?sinif=${sinif.id}&ders=${ders.id}`;
+    let etiket = `${sinif.ad} / ${ders.ad}`;
+
+    if (altKonuId) {
+      const altKonu = konu.altKonular?.find(ak => ak.id === altKonuId);
+      if (!altKonu) {
+        sayfayaGit('index.html');
+        return;
+      }
+      goruntulenecek = altKonu;
+      geriLink = `alt-konu.html?sinif=${sinif.id}&ders=${ders.id}&konu=${konu.id}`;
+      etiket = `${sinif.ad} / ${ders.ad} / ${konu.ad}`;
     }
-    document.getElementById('geri-link').href =
-      `ders.html?sinif=${sinif.id}&ders=${ders.id}`;
-    document.title = `${konu.ad} — ${ders.ad} — Kağıt`;
+
+    document.getElementById('sayfa-baslik').innerHTML =
+      `<em>${htmlKacis(goruntulenecek.ad)}</em>`;
+    document.getElementById('sayfa-etiket').textContent = etiket;
+    if (goruntulenecek.aciklama) {
+      document.getElementById('sayfa-alt-baslik').textContent = goruntulenecek.aciklama;
+    }
+    document.getElementById('geri-link').href = geriLink;
+    document.title = `${goruntulenecek.ad} — ${ders.ad} — Kağıt`;
 
     const kapsayici = document.getElementById('kart-kapsayici');
 
-    if (!konu.kagitlar || konu.kagitlar.length === 0) {
+    if (!goruntulenecek.kagitlar || goruntulenecek.kagitlar.length === 0) {
       kapsayici.innerHTML = `
         <div class="bos-durum">
           <div class="bos-durum-baslik">Henüz hazır değil</div>
@@ -203,7 +290,7 @@ async function konuSayfasiniYukle() {
       return;
     }
 
-    kapsayici.innerHTML = konu.kagitlar.map((kagit, index) => {
+    kapsayici.innerHTML = goruntulenecek.kagitlar.map((kagit, index) => {
       const numara = String(index + 1).padStart(2, '0');
 
       return `
