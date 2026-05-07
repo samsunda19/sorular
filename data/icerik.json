@@ -29,6 +29,44 @@
           "aktif": true,
           "konular": [
             {
+              "id": "uzunluk-donusum",
+              "ad": "Uzunlukları Birbirine Dönüştürme",
+              "aciklama": "km, m, cm, mm arasında dönüşüm ve karşılaştırma",
+              "aktif": true,
+              "kagitlar": [
+                {
+                  "id": "donusum-1",
+                  "baslik": "Çalışma Kağıdı 1",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-1.pdf"
+                },
+                {
+                  "id": "donusum-2",
+                  "baslik": "Çalışma Kağıdı 2",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-2.pdf"
+                },
+                {
+                  "id": "donusum-3",
+                  "baslik": "Çalışma Kağıdı 3",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-3.pdf"
+                },
+                {
+                  "id": "donusum-4",
+                  "baslik": "Çalışma Kağıdı 4",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-4.pdf"
+                },
+                {
+                  "id": "donusum-5",
+                  "baslik": "Çalışma Kağıdı 5",
+                  "soruSayisi": 10,
+                  "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-5.pdf"
+                }
+              ]
+            },
+            {
               "id": "uzunluk-problemleri",
               "ad": "Uzunluk Problemleri",
               "aciklama": "Uzunluk ölçülerini karşılaştırma, dönüştürme ve günlük hayat problemleri",
