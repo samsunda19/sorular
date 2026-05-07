@@ -255,6 +255,30 @@ button {
   opacity: 0.4;
 }
 
+.kart-buyuk {
+  min-height: 280px;
+  padding: 3rem 2.5rem;
+}
+
+.kart-buyuk .kart-baslik {
+  font-size: 2.25rem;
+}
+
+.kart-buyuk .kart-aciklama {
+  font-size: 1rem;
+  margin-top: 0.75rem;
+}
+
+@media (max-width: 768px) {
+  .kart-buyuk {
+    min-height: 200px;
+    padding: 2rem 1.5rem;
+  }
+  .kart-buyuk .kart-baslik {
+    font-size: 1.65rem;
+  }
+}
+
 .kart-pasif::after {
   content: 'Yakında';
   position: absolute;

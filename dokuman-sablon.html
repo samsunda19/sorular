@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="İlkokul öğretmenleri için çalışma kağıtları ve resmi belge şablonları arşivi.">
   <meta name="theme-color" content="#0a0a0a">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
-  <title>Sorular — İlkokul kaynakları</title>
+  <title>Şablonlar — Sorular</title>
   <link rel="stylesheet" href="css/stil.css">
 </head>
 <body>
@@ -18,17 +17,15 @@
   </header>
 
   <main class="ana">
+    <a href="index.html" class="geri" id="geri-link">Derslere dön</a>
+
     <div class="sayfa-baslik">
-      <div class="kucuk-etiket" id="sayfa-etiket">Bölümler</div>
-      <h1 class="buyuk-baslik" id="sayfa-baslik">
-        Hangi <em>kaynak</em> lazım?
-      </h1>
-      <p class="alt-baslik" id="sayfa-alt-baslik">
-        Çalışma kağıtları veya resmi belge şablonları — istediğinizi seçin.
-      </p>
+      <div class="kucuk-etiket" id="sayfa-etiket">Şablonlar</div>
+      <h1 class="buyuk-baslik" id="sayfa-baslik"><em>Yükleniyor…</em></h1>
+      <p class="alt-baslik" id="sayfa-alt-baslik"></p>
     </div>
 
-    <div class="kart-grid kolon-2" id="kart-kapsayici">
+    <div class="kart-grid kolon-3" id="kart-kapsayici">
       <div class="yukleniyor">Yükleniyor…</div>
     </div>
   </main>
@@ -36,11 +33,10 @@
   <footer class="alt-bilgi">
     <div class="alt-bilgi-icerik">
       <p>Sorular — İlkokul kaynakları arşivi</p>
-      <p>Tüm içerikler özgün olarak hazırlanmıştır.</p>
     </div>
   </footer>
 
   <script src="js/uygulama.js"></script>
-  <script>anaSayfayiYukle();</script>
+  <script>dokumanSablonSayfasiniYukle();</script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 // Kağıt - Service Worker
 // Basit önbellekleme: ilk ziyarette kaynakları sakla, sonraki ziyaretlerde hızlı yükle
 
-const CACHE_ADI = 'kagit-v2';
+const CACHE_ADI = 'kagit-v3';
 const ON_BELLEK_DOSYALARI = [
   './',
   './index.html',
@@ -9,6 +9,10 @@ const ON_BELLEK_DOSYALARI = [
   './ders.html',
   './alt-konu.html',
   './konu.html',
+  './dokuman-kategoriler.html',
+  './dokuman-sinif.html',
+  './dokuman-ders.html',
+  './dokuman-sablon.html',
   './css/stil.css',
   './js/uygulama.js',
   './data/icerik.json',
