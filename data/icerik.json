@@ -72,8 +72,29 @@
                   "id": "buyuk-sayilar",
                   "ad": "Büyük Sayılar",
                   "aciklama": "4, 5 ve 6 basamaklı sayılar — okuma, yazma, basamak değeri",
-                  "aktif": false,
-                  "kagitlar": []
+                  "aktif": true,
+                  "altKonular": [
+                    {
+                      "id": "sayilari-okuma-yazma",
+                      "ad": "Sayıları Okuma ve Yazma",
+                      "aciklama": "4, 5 ve 6 basamaklı sayıları rakamla ve yazıyla yazma",
+                      "aktif": true,
+                      "kagitlar": [
+                        { "id": "okuma-yazma-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-1.pdf" },
+                        { "id": "okuma-yazma-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-2.pdf" },
+                        { "id": "okuma-yazma-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-3.pdf" },
+                        { "id": "okuma-yazma-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-4.pdf" },
+                        { "id": "okuma-yazma-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-5.pdf" }
+                      ]
+                    },
+                    {
+                      "id": "basamak-degeri",
+                      "ad": "Basamak Değeri",
+                      "aciklama": "Hangi rakam hangi basamakta — basamak değeri ve sayı değeri",
+                      "aktif": false,
+                      "kagitlar": []
+                    }
+                  ]
                 },
                 {
                   "id": "siralama-karsilastirma",
