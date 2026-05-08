@@ -433,6 +433,34 @@
                       "dosya": "dokumanlar/hazir-olcekler/4-sinif/beden-egitimi/4-sinif-beden-egitimi-kazanim-olcegi.xlsx"
                     }
                   ]
+                },
+                {
+                  "id": "ingilizce",
+                  "ad": "İngilizce",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "28 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/ingilizce/4-sinif-ingilizce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "din-kulturu",
+                  "ad": "Din Kültürü ve Ahlak Bilgisi",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "26 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/din-kulturu/4-sinif-din-kulturu-kazanim-olcegi.xlsx"
+                    }
+                  ]
                 }
               ]
             }
