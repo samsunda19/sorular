@@ -91,8 +91,14 @@
                       "id": "basamak-degeri",
                       "ad": "Basamak Değeri",
                       "aciklama": "Hangi rakam hangi basamakta — basamak değeri ve sayı değeri",
-                      "aktif": false,
-                      "kagitlar": []
+                      "aktif": true,
+                      "kagitlar": [
+                        { "id": "basamak-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-1.pdf" },
+                        { "id": "basamak-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-2.pdf" },
+                        { "id": "basamak-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-3.pdf" },
+                        { "id": "basamak-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-4.pdf" },
+                        { "id": "basamak-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-5.pdf" }
+                      ]
                     }
                   ]
                 },
