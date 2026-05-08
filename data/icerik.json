@@ -69,23 +69,156 @@
                   ]
                 },
                 {
+                  "id": "buyuk-sayilar",
+                  "ad": "Büyük Sayılar",
+                  "aciklama": "4, 5 ve 6 basamaklı sayılar — okuma, yazma, basamak değeri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "siralama-karsilastirma",
+                  "ad": "Sıralama ve Karşılaştırma",
+                  "aciklama": "Doğal sayıları küçükten büyüğe, büyük/küçük sembolü",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "yuvarlama",
+                  "ad": "Yuvarlama",
+                  "aciklama": "En yakın onluk, yüzlük ve binliğe yuvarlama",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "sayi-oruntuleri",
+                  "ad": "Sayı Örüntüleri",
+                  "aciklama": "Artan ve azalan sayı örüntüleri, kuralı bulma",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "toplama",
+                  "ad": "Toplama İşlemi",
+                  "aciklama": "Dört basamaklı sayılarla toplama, eldeli toplama",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "cikarma",
+                  "ad": "Çıkarma İşlemi",
+                  "aciklama": "Dört basamaklı sayılarla çıkarma, onluk bozma",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "toplama-cikarma-problemleri",
+                  "ad": "Toplama-Çıkarma Problemleri",
+                  "aciklama": "Günlük hayat problemleri, çözüm aşamaları",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "carpma",
+                  "ad": "Çarpma İşlemi",
+                  "aciklama": "İki ve üç basamaklı sayılarla çarpma",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "bolme",
+                  "ad": "Bölme İşlemi",
+                  "aciklama": "Üç basamaklı sayıları bir basamaklılara bölme, kalan",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "carpma-bolme-problemleri",
+                  "ad": "Çarpma-Bölme Problemleri",
+                  "aciklama": "Çarpma ve bölme gerektiren günlük hayat problemleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "pratik-carpma-bolme",
+                  "ad": "Pratik Çarpma ve Bölme",
+                  "aciklama": "10, 100 ve 1000 ile çarpma ve bölme",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
                   "id": "kesirler",
                   "ad": "Kesirler",
-                  "aciklama": "Kesir kavramı, denk kesirler, kesirlerle işlemler",
+                  "aciklama": "Kesir kavramı, birim kesir, basit ve bileşik kesirler",
                   "aktif": false,
                   "kagitlar": []
                 },
                 {
-                  "id": "dogal-sayilar",
-                  "ad": "Doğal Sayılar",
-                  "aciklama": "Dört basamaklı sayılar, sıralama, basamak değeri",
+                  "id": "kesir-karsilastirma",
+                  "ad": "Kesirleri Karşılaştırma",
+                  "aciklama": "Paydaları eşit kesirleri karşılaştırma ve sıralama",
                   "aktif": false,
                   "kagitlar": []
                 },
                 {
-                  "id": "geometri",
-                  "ad": "Geometri",
-                  "aciklama": "Üçgen, kare, dikdörtgen, açılar",
+                  "id": "zaman-olcusu",
+                  "ad": "Zaman Ölçüsü",
+                  "aciklama": "Saat, dakika, saniye, gün, ay, yıl",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "sivi-olcusu",
+                  "ad": "Sıvı Ölçüsü",
+                  "aciklama": "Litre ve mililitre, sıvı ölçü problemleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "agirlik-olcusu",
+                  "ad": "Ağırlık Ölçüsü",
+                  "aciklama": "Kilogram ve gram, ağırlık problemleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "para",
+                  "ad": "Paralarımız",
+                  "aciklama": "Türk lirası, kuruş, para hesaplamaları",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "acilar",
+                  "ad": "Açılar",
+                  "aciklama": "Dar, dik, geniş açılar — açı ölçme",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "geometrik-sekiller",
+                  "ad": "Geometrik Şekiller",
+                  "aciklama": "Üçgen, kare, dikdörtgen — kenar ve köşe özellikleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "cevre",
+                  "ad": "Çevre Hesaplama",
+                  "aciklama": "Kare ve dikdörtgenin çevresi",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "simetri",
+                  "ad": "Simetri",
+                  "aciklama": "Simetri ekseni, simetrik şekiller",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "tablo-grafik",
+                  "ad": "Tablo ve Grafik",
+                  "aciklama": "Veri okuma, sütun grafiği oluşturma ve yorumlama",
                   "aktif": false,
                   "kagitlar": []
                 }
