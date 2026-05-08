@@ -1,7 +1,7 @@
 // Kağıt - Service Worker
 // Basit önbellekleme: ilk ziyarette kaynakları sakla, sonraki ziyaretlerde hızlı yükle
 
-const CACHE_ADI = 'kagit-v9';
+const CACHE_ADI = 'kagit-v10';
 const ON_BELLEK_DOSYALARI = [
   './',
   './index.html',
@@ -40,10 +40,10 @@ self.addEventListener('activate', (etkinlik) => {
 self.addEventListener('fetch', (etkinlik) => {
   const url = new URL(etkinlik.request.url);
 
-  // PDF dosyalarını önbellekleme — her zaman ağdan getir
+  // PDF dosyalarını önbellekleme – her zaman ağdan getir
   if (url.pathname.includes('/pdfs/')) return;
 
-  // JSON dosyası — önce ağdan, başarısızsa önbellekten (içerik güncel kalsın)
+  // JSON dosyası – önce ağdan, başarısızsa önbellekten (içerik güncel kalsın)
   if (url.pathname.endsWith('.json')) {
     etkinlik.respondWith(
       fetch(etkinlik.request)
@@ -57,7 +57,7 @@ self.addEventListener('fetch', (etkinlik) => {
     return;
   }
 
-  // Diğerleri — önce önbellekten, yoksa ağdan
+  // Diğerleri – önce önbellekten, yoksa ağdan
   etkinlik.respondWith(
     caches.match(etkinlik.request).then((onBellek) =>
       onBellek || fetch(etkinlik.request)

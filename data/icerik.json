@@ -37,7 +37,7 @@
                 {
                   "id": "uzunluk-birimleri",
                   "ad": "Uzunluk Birimleri",
-                  "aciklama": "km, m, cm, mm — dönüşümler ve problemler",
+                  "aciklama": "km, m, cm, mm – dönüşümler ve problemler",
                   "aktif": true,
                   "altKonular": [
                     {
@@ -46,11 +46,36 @@
                       "aciklama": "km, m, cm, mm arasında dönüşüm ve karşılaştırma",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "donusum-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-1.pdf" },
-                        { "id": "donusum-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-2.pdf" },
-                        { "id": "donusum-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-3.pdf" },
-                        { "id": "donusum-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-4.pdf" },
-                        { "id": "donusum-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-5.pdf" }
+                        {
+                          "id": "donusum-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-1.pdf"
+                        },
+                        {
+                          "id": "donusum-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-2.pdf"
+                        },
+                        {
+                          "id": "donusum-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-3.pdf"
+                        },
+                        {
+                          "id": "donusum-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-4.pdf"
+                        },
+                        {
+                          "id": "donusum-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-5.pdf"
+                        }
                       ]
                     },
                     {
@@ -59,11 +84,36 @@
                       "aciklama": "Uzunluk ölçülerini karşılaştırma ve günlük hayat problemleri",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "uzunluk-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-1.pdf" },
-                        { "id": "uzunluk-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-2.pdf" },
-                        { "id": "uzunluk-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-3.pdf" },
-                        { "id": "uzunluk-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-4.pdf" },
-                        { "id": "uzunluk-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-5.pdf" }
+                        {
+                          "id": "uzunluk-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-1.pdf"
+                        },
+                        {
+                          "id": "uzunluk-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-2.pdf"
+                        },
+                        {
+                          "id": "uzunluk-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-3.pdf"
+                        },
+                        {
+                          "id": "uzunluk-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-4.pdf"
+                        },
+                        {
+                          "id": "uzunluk-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-5.pdf"
+                        }
                       ]
                     }
                   ]
@@ -71,7 +121,7 @@
                 {
                   "id": "buyuk-sayilar",
                   "ad": "Büyük Sayılar",
-                  "aciklama": "4, 5 ve 6 basamaklı sayılar — okuma, yazma, basamak değeri",
+                  "aciklama": "4, 5 ve 6 basamaklı sayılar – okuma, yazma, basamak değeri",
                   "aktif": true,
                   "altKonular": [
                     {
@@ -80,24 +130,74 @@
                       "aciklama": "4, 5 ve 6 basamaklı sayıları rakamla ve yazıyla yazma",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "okuma-yazma-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-1.pdf" },
-                        { "id": "okuma-yazma-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-2.pdf" },
-                        { "id": "okuma-yazma-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-3.pdf" },
-                        { "id": "okuma-yazma-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-4.pdf" },
-                        { "id": "okuma-yazma-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-5.pdf" }
+                        {
+                          "id": "okuma-yazma-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-1.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-2.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-3.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-4.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-5.pdf"
+                        }
                       ]
                     },
                     {
                       "id": "basamak-degeri",
                       "ad": "Basamak Değeri",
-                      "aciklama": "Hangi rakam hangi basamakta — basamak değeri ve sayı değeri",
+                      "aciklama": "Hangi rakam hangi basamakta – basamak değeri ve sayı değeri",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "basamak-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-1.pdf" },
-                        { "id": "basamak-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-2.pdf" },
-                        { "id": "basamak-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-3.pdf" },
-                        { "id": "basamak-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-4.pdf" },
-                        { "id": "basamak-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-5.pdf" }
+                        {
+                          "id": "basamak-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-1.pdf"
+                        },
+                        {
+                          "id": "basamak-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-2.pdf"
+                        },
+                        {
+                          "id": "basamak-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-3.pdf"
+                        },
+                        {
+                          "id": "basamak-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-4.pdf"
+                        },
+                        {
+                          "id": "basamak-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-5.pdf"
+                        }
                       ]
                     }
                   ]
@@ -217,14 +317,14 @@
                 {
                   "id": "acilar",
                   "ad": "Açılar",
-                  "aciklama": "Dar, dik, geniş açılar — açı ölçme",
+                  "aciklama": "Dar, dik, geniş açılar – açı ölçme",
                   "aktif": false,
                   "kagitlar": []
                 },
                 {
                   "id": "geometrik-sekiller",
                   "ad": "Geometrik Şekiller",
-                  "aciklama": "Üçgen, kare, dikdörtgen — kenar ve köşe özellikleri",
+                  "aciklama": "Üçgen, kare, dikdörtgen – kenar ve köşe özellikleri",
                   "aktif": false,
                   "kagitlar": []
                 },
@@ -282,7 +382,7 @@
         {
           "id": "degerlendirme-olcekleri",
           "ad": "Değerlendirme Ölçekleri",
-          "aciklama": "Kazanım değerlendirme ölçekleri — Excel şablonları",
+          "aciklama": "Kazanım değerlendirme ölçekleri – Excel şablonları",
           "aktif": true,
           "siniflar": [
             {
@@ -300,8 +400,121 @@
             {
               "id": "3-sinif",
               "ad": "3. Sınıf",
-              "aktif": false,
-              "dersler": []
+              "aktif": true,
+              "dersler": [
+                {
+                  "id": "turkce",
+                  "ad": "Türkçe",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/turkce/turkce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "matematik",
+                  "ad": "Matematik",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/matematik/matematik-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "hayat-bilgisi",
+                  "ad": "Hayat Bilgisi",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/hayat-bilgisi/hayat-bilgisi-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "fen-bilimleri",
+                  "ad": "Fen Bilimleri",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/fen-bilimleri/fen-bilimleri-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "muzik",
+                  "ad": "Müzik",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "14 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/muzik/muzik-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "gorsel-sanatlar",
+                  "ad": "Görsel Sanatlar",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "20 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/gorsel-sanatlar/gorsel-sanatlar-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "beden-egitimi",
+                  "ad": "Beden Eğitimi ve Oyun",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/beden-egitimi/beden-egitimi-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "ingilizce",
+                  "ad": "İngilizce",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "20 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/ingilizce/ingilizce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "id": "4-sinif",
