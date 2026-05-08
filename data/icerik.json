@@ -309,6 +309,20 @@
               "aktif": true,
               "dersler": [
                 {
+                  "id": "turkce",
+                  "ad": "Türkçe",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/turkce/4-sinif-turkce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
                   "id": "matematik",
                   "ad": "Matematik",
                   "aktif": true,
@@ -316,29 +330,109 @@
                     {
                       "id": "kazanim-olcegi",
                       "baslik": "Kazanım Değerlendirme Ölçeği",
-                      "aciklama": "29 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
                       "format": "xlsx",
                       "dosya": "dokumanlar/hazir-olcekler/4-sinif/matematik/4-sinif-matematik-kazanim-olcegi.xlsx"
                     }
                   ]
                 },
                 {
-                  "id": "turkce",
-                  "ad": "Türkçe",
-                  "aktif": false,
-                  "sablonlar": []
-                },
-                {
                   "id": "fen-bilimleri",
                   "ad": "Fen Bilimleri",
-                  "aktif": false,
-                  "sablonlar": []
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/fen-bilimleri/4-sinif-fen-bilimleri-kazanim-olcegi.xlsx"
+                    }
+                  ]
                 },
                 {
                   "id": "sosyal-bilgiler",
                   "ad": "Sosyal Bilgiler",
-                  "aktif": false,
-                  "sablonlar": []
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/sosyal-bilgiler/4-sinif-sosyal-bilgiler-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "insan-haklari",
+                  "ad": "İnsan Hakları, Yurttaşlık ve Demokrasi",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "29 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/insan-haklari/4-sinif-insan-haklari-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "trafik-guvenligi",
+                  "ad": "Trafik Güvenliği",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "21 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/trafik-guvenligi/4-sinif-trafik-guvenligi-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "muzik",
+                  "ad": "Müzik",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "21 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/muzik/4-sinif-muzik-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "gorsel-sanatlar",
+                  "ad": "Görsel Sanatlar",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "16 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/gorsel-sanatlar/4-sinif-gorsel-sanatlar-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "beden-egitimi",
+                  "ad": "Beden Eğitimi ve Oyun",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/beden-egitimi/4-sinif-beden-egitimi-kazanim-olcegi.xlsx"
+                    }
+                  ]
                 }
               ]
             }
