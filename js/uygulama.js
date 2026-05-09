@@ -92,7 +92,7 @@ async function sinifSayfasiniYukle() {
     const calismaBolumu = veri.bolumler.find(b => b.id === 'calisma-kagitlari');
 
     if (!calismaBolumu) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -100,7 +100,7 @@ async function sinifSayfasiniYukle() {
       // Tüm sınıfları listele
       document.getElementById('sayfa-baslik').innerHTML = `<em>Çalışma Kağıtları</em>`;
       document.getElementById('sayfa-etiket').textContent = 'Sınıflar';
-      document.getElementById('geri-link').href = 'index.html';
+      document.getElementById('geri-link').href = "/";
       document.title = 'Çalışma Kağıtları — Kağıt';
 
       const kapsayici = document.getElementById('kart-kapsayici');
@@ -123,7 +123,7 @@ async function sinifSayfasiniYukle() {
     // Belli bir sınıfın derslerini göster
     const sinif = calismaBolumu.siniflar.find(s => s.id === sinifId);
     if (!sinif) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -170,7 +170,7 @@ async function dersSayfasiniYukle() {
     const ders = sinif?.dersler.find(d => d.id === dersId);
 
     if (!sinif || !ders) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -225,7 +225,7 @@ async function altKonuSayfasiniYukle() {
     const konu = ders?.konular.find(k => k.id === konuId);
 
     if (!sinif || !ders || !konu) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -281,7 +281,7 @@ async function konuSayfasiniYukle() {
     const konu = ders?.konular.find(k => k.id === konuId);
 
     if (!sinif || !ders || !konu) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -292,7 +292,7 @@ async function konuSayfasiniYukle() {
     if (altKonuId) {
       const altKonu = konu.altKonular?.find(ak => ak.id === altKonuId);
       if (!altKonu) {
-        sayfayaGit('index.html');
+        sayfayaGit('/');
         return;
       }
       goruntulenecek = altKonu;
@@ -340,7 +340,7 @@ async function dokumanKategoriSayfasiniYukle() {
     const dokumanBolumu = veri.bolumler.find(b => b.id === 'dokumanlar');
 
     if (!dokumanBolumu) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -384,7 +384,7 @@ async function dokumanSinifSayfasiniYukle() {
     const kategori = dokumanBolumu?.kategoriler.find(k => k.id === kategoriId);
 
     if (!kategori) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -431,7 +431,7 @@ async function dokumanDersSayfasiniYukle() {
     const sinif = kategori?.siniflar.find(s => s.id === sinifId);
 
     if (!kategori || !sinif) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
@@ -480,7 +480,7 @@ async function dokumanSablonSayfasiniYukle() {
     const ders = sinif?.dersler.find(d => d.id === dersId);
 
     if (!kategori || !sinif || !ders) {
-      sayfayaGit('index.html');
+      sayfayaGit('/');
       return;
     }
 
