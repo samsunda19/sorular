@@ -6,9 +6,24 @@
       "aciklama": "Sınıf, ders ve konuya göre çalışma kağıdı arşivi",
       "aktif": true,
       "siniflar": [
-        { "id": "1-sinif", "ad": "1. Sınıf", "aktif": false, "dersler": [] },
-        { "id": "2-sinif", "ad": "2. Sınıf", "aktif": false, "dersler": [] },
-        { "id": "3-sinif", "ad": "3. Sınıf", "aktif": false, "dersler": [] },
+        {
+          "id": "1-sinif",
+          "ad": "1. Sınıf",
+          "aktif": false,
+          "dersler": []
+        },
+        {
+          "id": "2-sinif",
+          "ad": "2. Sınıf",
+          "aktif": false,
+          "dersler": []
+        },
+        {
+          "id": "3-sinif",
+          "ad": "3. Sınıf",
+          "aktif": false,
+          "dersler": []
+        },
         {
           "id": "4-sinif",
           "ad": "4. Sınıf",
@@ -31,11 +46,36 @@
                       "aciklama": "km, m, cm, mm arasında dönüşüm ve karşılaştırma",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "donusum-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-1.pdf" },
-                        { "id": "donusum-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-2.pdf" },
-                        { "id": "donusum-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-3.pdf" },
-                        { "id": "donusum-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-4.pdf" },
-                        { "id": "donusum-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-5.pdf" }
+                        {
+                          "id": "donusum-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-1.pdf"
+                        },
+                        {
+                          "id": "donusum-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-2.pdf"
+                        },
+                        {
+                          "id": "donusum-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-3.pdf"
+                        },
+                        {
+                          "id": "donusum-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-4.pdf"
+                        },
+                        {
+                          "id": "donusum-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-donusum/donusum-5.pdf"
+                        }
                       ]
                     },
                     {
@@ -44,11 +84,36 @@
                       "aciklama": "Uzunluk ölçülerini karşılaştırma ve günlük hayat problemleri",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "uzunluk-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-1.pdf" },
-                        { "id": "uzunluk-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-2.pdf" },
-                        { "id": "uzunluk-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-3.pdf" },
-                        { "id": "uzunluk-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-4.pdf" },
-                        { "id": "uzunluk-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-5.pdf" }
+                        {
+                          "id": "uzunluk-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-1.pdf"
+                        },
+                        {
+                          "id": "uzunluk-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-2.pdf"
+                        },
+                        {
+                          "id": "uzunluk-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-3.pdf"
+                        },
+                        {
+                          "id": "uzunluk-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-4.pdf"
+                        },
+                        {
+                          "id": "uzunluk-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/uzunluk-problemleri/uzunluk-5.pdf"
+                        }
                       ]
                     }
                   ]
@@ -65,11 +130,36 @@
                       "aciklama": "4, 5 ve 6 basamaklı sayıları rakamla ve yazıyla yazma",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "okuma-yazma-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-1.pdf" },
-                        { "id": "okuma-yazma-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-2.pdf" },
-                        { "id": "okuma-yazma-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-3.pdf" },
-                        { "id": "okuma-yazma-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-4.pdf" },
-                        { "id": "okuma-yazma-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 10, "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-5.pdf" }
+                        {
+                          "id": "okuma-yazma-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-1.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-2.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-3.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-4.pdf"
+                        },
+                        {
+                          "id": "okuma-yazma-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 10,
+                          "dosya": "pdfs/4-sinif/matematik/sayilari-okuma-yazma/okuma-yazma-5.pdf"
+                        }
                       ]
                     },
                     {
@@ -78,11 +168,36 @@
                       "aciklama": "Hangi rakam hangi basamakta – basamak değeri ve sayı değeri",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "basamak-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-1.pdf" },
-                        { "id": "basamak-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-2.pdf" },
-                        { "id": "basamak-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-3.pdf" },
-                        { "id": "basamak-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-4.pdf" },
-                        { "id": "basamak-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 15, "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-5.pdf" }
+                        {
+                          "id": "basamak-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-1.pdf"
+                        },
+                        {
+                          "id": "basamak-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-2.pdf"
+                        },
+                        {
+                          "id": "basamak-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-3.pdf"
+                        },
+                        {
+                          "id": "basamak-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-4.pdf"
+                        },
+                        {
+                          "id": "basamak-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 15,
+                          "dosya": "pdfs/4-sinif/matematik/basamak-degeri/basamak-5.pdf"
+                        }
                       ]
                     }
                   ]
@@ -99,11 +214,36 @@
                       "aciklama": "Doğal sayıları karşılaştırma ve sıralama",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "siralama-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-1.pdf" },
-                        { "id": "siralama-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-2.pdf" },
-                        { "id": "siralama-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-3.pdf" },
-                        { "id": "siralama-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-4.pdf" },
-                        { "id": "siralama-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-5.pdf" }
+                        {
+                          "id": "siralama-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-1.pdf"
+                        },
+                        {
+                          "id": "siralama-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-2.pdf"
+                        },
+                        {
+                          "id": "siralama-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-3.pdf"
+                        },
+                        {
+                          "id": "siralama-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-4.pdf"
+                        },
+                        {
+                          "id": "siralama-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/siralama-karsilastirma/siralama-5.pdf"
+                        }
                       ]
                     }
                   ]
@@ -120,11 +260,36 @@
                       "aciklama": "Onluk, yüzlük, binliğe yuvarlama",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "yuvarlama-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-1.pdf" },
-                        { "id": "yuvarlama-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-2.pdf" },
-                        { "id": "yuvarlama-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-3.pdf" },
-                        { "id": "yuvarlama-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-4.pdf" },
-                        { "id": "yuvarlama-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-5.pdf" }
+                        {
+                          "id": "yuvarlama-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-1.pdf"
+                        },
+                        {
+                          "id": "yuvarlama-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-2.pdf"
+                        },
+                        {
+                          "id": "yuvarlama-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-3.pdf"
+                        },
+                        {
+                          "id": "yuvarlama-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-4.pdf"
+                        },
+                        {
+                          "id": "yuvarlama-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/yuvarlama/yuvarlama-5.pdf"
+                        }
                       ]
                     }
                   ]
@@ -141,11 +306,36 @@
                       "aciklama": "Dizilerin kuralını bulma ve devam ettirme",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "oruntu-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-1.pdf" },
-                        { "id": "oruntu-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-2.pdf" },
-                        { "id": "oruntu-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-3.pdf" },
-                        { "id": "oruntu-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-4.pdf" },
-                        { "id": "oruntu-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-5.pdf" }
+                        {
+                          "id": "oruntu-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-1.pdf"
+                        },
+                        {
+                          "id": "oruntu-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-2.pdf"
+                        },
+                        {
+                          "id": "oruntu-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-3.pdf"
+                        },
+                        {
+                          "id": "oruntu-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-4.pdf"
+                        },
+                        {
+                          "id": "oruntu-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/sayi-oruntuleri/oruntu-5.pdf"
+                        }
                       ]
                     }
                   ]
@@ -162,11 +352,36 @@
                       "aciklama": "Alt alta hizalı toplama işlemleri",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "toplama-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 20, "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-1.pdf" },
-                        { "id": "toplama-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 20, "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-2.pdf" },
-                        { "id": "toplama-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 20, "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-3.pdf" },
-                        { "id": "toplama-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 20, "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-4.pdf" },
-                        { "id": "toplama-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 20, "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-5.pdf" }
+                        {
+                          "id": "toplama-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 20,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-1.pdf"
+                        },
+                        {
+                          "id": "toplama-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 20,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-2.pdf"
+                        },
+                        {
+                          "id": "toplama-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 20,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-3.pdf"
+                        },
+                        {
+                          "id": "toplama-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 20,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-4.pdf"
+                        },
+                        {
+                          "id": "toplama-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 20,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-islemi/toplama-5.pdf"
+                        }
                       ]
                     },
                     {
@@ -175,37 +390,256 @@
                       "aciklama": "Günlük hayat problemleri",
                       "aktif": true,
                       "kagitlar": [
-                        { "id": "problem-1", "baslik": "Çalışma Kağıdı 1", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-1.pdf" },
-                        { "id": "problem-2", "baslik": "Çalışma Kağıdı 2", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-2.pdf" },
-                        { "id": "problem-3", "baslik": "Çalışma Kağıdı 3", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-3.pdf" },
-                        { "id": "problem-4", "baslik": "Çalışma Kağıdı 4", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-4.pdf" },
-                        { "id": "problem-5", "baslik": "Çalışma Kağıdı 5", "soruSayisi": 16, "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-5.pdf" }
+                        {
+                          "id": "problem-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-1.pdf"
+                        },
+                        {
+                          "id": "problem-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-2.pdf"
+                        },
+                        {
+                          "id": "problem-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-3.pdf"
+                        },
+                        {
+                          "id": "problem-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-4.pdf"
+                        },
+                        {
+                          "id": "problem-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/toplama-problemleri/problem-5.pdf"
+                        }
                       ]
                     }
                   ]
                 },
-                { "id": "cikarma", "ad": "Çıkarma İşlemi", "aciklama": "Dört basamaklı sayılarla çıkarma, onluk bozma", "aktif": false, "kagitlar": [] },
-                { "id": "toplama-cikarma-problemleri", "ad": "Toplama-Çıkarma Problemleri", "aciklama": "Günlük hayat problemleri, çözüm aşamaları", "aktif": false, "kagitlar": [] },
-                { "id": "carpma", "ad": "Çarpma İşlemi", "aciklama": "İki ve üç basamaklı sayılarla çarpma", "aktif": false, "kagitlar": [] },
-                { "id": "bolme", "ad": "Bölme İşlemi", "aciklama": "Üç basamaklı sayıları bir basamaklılara bölme, kalan", "aktif": false, "kagitlar": [] },
-                { "id": "carpma-bolme-problemleri", "ad": "Çarpma-Bölme Problemleri", "aciklama": "Çarpma ve bölme gerektiren günlük hayat problemleri", "aktif": false, "kagitlar": [] },
-                { "id": "pratik-carpma-bolme", "ad": "Pratik Çarpma ve Bölme", "aciklama": "10, 100 ve 1000 ile çarpma ve bölme", "aktif": false, "kagitlar": [] },
-                { "id": "kesirler", "ad": "Kesirler", "aciklama": "Kesir kavramı, birim kesir, basit ve bileşik kesirler", "aktif": false, "kagitlar": [] },
-                { "id": "kesir-karsilastirma", "ad": "Kesirleri Karşılaştırma", "aciklama": "Paydaları eşit kesirleri karşılaştırma ve sıralama", "aktif": false, "kagitlar": [] },
-                { "id": "zaman-olcusu", "ad": "Zaman Ölçüsü", "aciklama": "Saat, dakika, saniye, gün, ay, yıl", "aktif": false, "kagitlar": [] },
-                { "id": "sivi-olcusu", "ad": "Sıvı Ölçüsü", "aciklama": "Litre ve mililitre, sıvı ölçü problemleri", "aktif": false, "kagitlar": [] },
-                { "id": "agirlik-olcusu", "ad": "Ağırlık Ölçüsü", "aciklama": "Kilogram ve gram, ağırlık problemleri", "aktif": false, "kagitlar": [] },
-                { "id": "para", "ad": "Paralarımız", "aciklama": "Türk lirası, kuruş, para hesaplamaları", "aktif": false, "kagitlar": [] },
-                { "id": "acilar", "ad": "Açılar", "aciklama": "Dar, dik, geniş açılar – açı ölçme", "aktif": false, "kagitlar": [] },
-                { "id": "geometrik-sekiller", "ad": "Geometrik Şekiller", "aciklama": "Üçgen, kare, dikdörtgen – kenar ve köşe özellikleri", "aktif": false, "kagitlar": [] },
-                { "id": "cevre", "ad": "Çevre Hesaplama", "aciklama": "Kare ve dikdörtgenin çevresi", "aktif": false, "kagitlar": [] },
-                { "id": "simetri", "ad": "Simetri", "aciklama": "Simetri ekseni, simetrik şekiller", "aktif": false, "kagitlar": [] },
-                { "id": "tablo-grafik", "ad": "Tablo ve Grafik", "aciklama": "Veri okuma, sütun grafiği oluşturma ve yorumlama", "aktif": false, "kagitlar": [] }
+                {
+                  "id": "cikarma",
+                  "ad": "Çıkarma İşlemi",
+                  "aciklama": "Dört basamaklı sayılarla çıkarma, onluk bozma",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "toplama-cikarma-problemleri",
+                  "ad": "Toplama-Çıkarma Problemleri",
+                  "aciklama": "Günlük hayat problemleri, çözüm aşamaları",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "carpma",
+                  "ad": "Çarpma İşlemi",
+                  "aciklama": "İki ve üç basamaklı sayılarla çarpma",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "bolme",
+                  "ad": "Bölme İşlemi",
+                  "aciklama": "Üç basamaklı sayıları bir basamaklılara bölme, kalan",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "carpma-bolme-problemleri",
+                  "ad": "Çarpma-Bölme Problemleri",
+                  "aciklama": "Çarpma ve bölme gerektiren günlük hayat problemleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "pratik-carpma-bolme",
+                  "ad": "Pratik Çarpma ve Bölme",
+                  "aciklama": "10, 100 ve 1000 ile çarpma ve bölme",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "kesirler",
+                  "ad": "Kesirler",
+                  "aciklama": "Kesir kavramı, birim kesir, basit ve bileşik kesirler",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "kesir-karsilastirma",
+                  "ad": "Kesirleri Karşılaştırma",
+                  "aciklama": "Paydaları eşit kesirleri karşılaştırma ve sıralama",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "zaman-olcusu",
+                  "ad": "Zaman Ölçüsü",
+                  "aciklama": "Saat, dakika, saniye, gün, ay, yıl",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "sivi-olcusu",
+                  "ad": "Sıvı Ölçüsü",
+                  "aciklama": "Litre ve mililitre, sıvı ölçü problemleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "agirlik-olcusu",
+                  "ad": "Ağırlık Ölçüsü",
+                  "aciklama": "Kilogram ve gram, ağırlık problemleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "para",
+                  "ad": "Paralarımız",
+                  "aciklama": "Türk lirası, kuruş, para hesaplamaları",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "acilar",
+                  "ad": "Açılar",
+                  "aciklama": "Dar, dik, geniş açılar – açı ölçme",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "geometrik-sekiller",
+                  "ad": "Geometrik Şekiller",
+                  "aciklama": "Üçgen, kare, dikdörtgen – kenar ve köşe özellikleri",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "cevre",
+                  "ad": "Çevre Hesaplama",
+                  "aciklama": "Kare ve dikdörtgenin çevresi",
+                  "aktif": true,
+                  "altKonular": [
+                    {
+                      "id": "cevre",
+                      "ad": "Çevre Hesaplama",
+                      "aciklama": "Kare, dikdörtgen ve üçgenin çevre uzunluğu",
+                      "aktif": true,
+                      "kagitlar": [
+                        {
+                          "id": "cevre-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre/cevre-1.pdf"
+                        },
+                        {
+                          "id": "cevre-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre/cevre-2.pdf"
+                        },
+                        {
+                          "id": "cevre-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre/cevre-3.pdf"
+                        },
+                        {
+                          "id": "cevre-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre/cevre-4.pdf"
+                        },
+                        {
+                          "id": "cevre-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre/cevre-5.pdf"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "cevre-problemleri",
+                      "ad": "Çevre Hesaplama Problemleri",
+                      "aciklama": "Günlük hayat problemleri",
+                      "aktif": true,
+                      "kagitlar": [
+                        {
+                          "id": "problem-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre-problemleri/problem-1.pdf"
+                        },
+                        {
+                          "id": "problem-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre-problemleri/problem-2.pdf"
+                        },
+                        {
+                          "id": "problem-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre-problemleri/problem-3.pdf"
+                        },
+                        {
+                          "id": "problem-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre-problemleri/problem-4.pdf"
+                        },
+                        {
+                          "id": "problem-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/4-sinif/matematik/cevre-problemleri/problem-5.pdf"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "simetri",
+                  "ad": "Simetri",
+                  "aciklama": "Simetri ekseni, simetrik şekiller",
+                  "aktif": false,
+                  "kagitlar": []
+                },
+                {
+                  "id": "tablo-grafik",
+                  "ad": "Tablo ve Grafik",
+                  "aciklama": "Veri okuma, sütun grafiği oluşturma ve yorumlama",
+                  "aktif": false,
+                  "kagitlar": []
+                }
               ]
             },
-            { "id": "turkce", "ad": "Türkçe", "aktif": false, "konular": [] },
-            { "id": "fen-bilimleri", "ad": "Fen Bilimleri", "aktif": false, "konular": [] },
-            { "id": "sosyal-bilgiler", "ad": "Sosyal Bilgiler", "aktif": false, "konular": [] }
+            {
+              "id": "turkce",
+              "ad": "Türkçe",
+              "aktif": false,
+              "konular": []
+            },
+            {
+              "id": "fen-bilimleri",
+              "ad": "Fen Bilimleri",
+              "aktif": false,
+              "konular": []
+            },
+            {
+              "id": "sosyal-bilgiler",
+              "ad": "Sosyal Bilgiler",
+              "aktif": false,
+              "konular": []
+            }
           ]
         }
       ]
@@ -222,21 +656,135 @@
           "aciklama": "Kazanım değerlendirme ölçekleri – Excel şablonları",
           "aktif": true,
           "siniflar": [
-            { "id": "1-sinif", "ad": "1. Sınıf", "aktif": false, "dersler": [] },
-            { "id": "2-sinif", "ad": "2. Sınıf", "aktif": false, "dersler": [] },
+            {
+              "id": "1-sinif",
+              "ad": "1. Sınıf",
+              "aktif": false,
+              "dersler": []
+            },
+            {
+              "id": "2-sinif",
+              "ad": "2. Sınıf",
+              "aktif": false,
+              "dersler": []
+            },
             {
               "id": "3-sinif",
               "ad": "3. Sınıf",
               "aktif": true,
               "dersler": [
-                { "id": "turkce", "ad": "Türkçe", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/turkce/turkce-kazanim-olcegi.xlsx" }] },
-                { "id": "matematik", "ad": "Matematik", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/matematik/matematik-kazanim-olcegi.xlsx" }] },
-                { "id": "hayat-bilgisi", "ad": "Hayat Bilgisi", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/hayat-bilgisi/hayat-bilgisi-kazanim-olcegi.xlsx" }] },
-                { "id": "fen-bilimleri", "ad": "Fen Bilimleri", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/fen-bilimleri/fen-bilimleri-kazanim-olcegi.xlsx" }] },
-                { "id": "muzik", "ad": "Müzik", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "14 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/muzik/muzik-kazanim-olcegi.xlsx" }] },
-                { "id": "gorsel-sanatlar", "ad": "Görsel Sanatlar", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "20 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/gorsel-sanatlar/gorsel-sanatlar-kazanim-olcegi.xlsx" }] },
-                { "id": "beden-egitimi", "ad": "Beden Eğitimi ve Oyun", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/beden-egitimi/beden-egitimi-kazanim-olcegi.xlsx" }] },
-                { "id": "ingilizce", "ad": "İngilizce", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "20 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/3-sinif/ingilizce/ingilizce-kazanim-olcegi.xlsx" }] }
+                {
+                  "id": "turkce",
+                  "ad": "Türkçe",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/turkce/turkce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "matematik",
+                  "ad": "Matematik",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/matematik/matematik-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "hayat-bilgisi",
+                  "ad": "Hayat Bilgisi",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/hayat-bilgisi/hayat-bilgisi-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "fen-bilimleri",
+                  "ad": "Fen Bilimleri",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/fen-bilimleri/fen-bilimleri-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "muzik",
+                  "ad": "Müzik",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "14 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/muzik/muzik-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "gorsel-sanatlar",
+                  "ad": "Görsel Sanatlar",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "20 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/gorsel-sanatlar/gorsel-sanatlar-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "beden-egitimi",
+                  "ad": "Beden Eğitimi ve Oyun",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/beden-egitimi/beden-egitimi-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "ingilizce",
+                  "ad": "İngilizce",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "20 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/3-sinif/ingilizce/ingilizce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -244,24 +792,185 @@
               "ad": "4. Sınıf",
               "aktif": true,
               "dersler": [
-                { "id": "turkce", "ad": "Türkçe", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/turkce/4-sinif-turkce-kazanim-olcegi.xlsx" }] },
-                { "id": "matematik", "ad": "Matematik", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/matematik/4-sinif-matematik-kazanim-olcegi.xlsx" }] },
-                { "id": "fen-bilimleri", "ad": "Fen Bilimleri", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/fen-bilimleri/4-sinif-fen-bilimleri-kazanim-olcegi.xlsx" }] },
-                { "id": "sosyal-bilgiler", "ad": "Sosyal Bilgiler", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/sosyal-bilgiler/4-sinif-sosyal-bilgiler-kazanim-olcegi.xlsx" }] },
-                { "id": "insan-haklari", "ad": "İnsan Hakları, Yurttaşlık ve Demokrasi", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "29 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/insan-haklari/4-sinif-insan-haklari-kazanim-olcegi.xlsx" }] },
-                { "id": "trafik-guvenligi", "ad": "Trafik Güvenliği", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "21 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/trafik-guvenligi/4-sinif-trafik-guvenligi-kazanim-olcegi.xlsx" }] },
-                { "id": "muzik", "ad": "Müzik", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "21 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/muzik/4-sinif-muzik-kazanim-olcegi.xlsx" }] },
-                { "id": "gorsel-sanatlar", "ad": "Görsel Sanatlar", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "16 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/gorsel-sanatlar/4-sinif-gorsel-sanatlar-kazanim-olcegi.xlsx" }] },
-                { "id": "beden-egitimi", "ad": "Beden Eğitimi ve Oyun", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/beden-egitimi/4-sinif-beden-egitimi-kazanim-olcegi.xlsx" }] },
-                { "id": "ingilizce", "ad": "İngilizce", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "28 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/ingilizce/4-sinif-ingilizce-kazanim-olcegi.xlsx" }] },
-                { "id": "din-kulturu", "ad": "Din Kültürü ve Ahlak Bilgisi", "aktif": true, "sablonlar": [{ "id": "kazanim-olcegi", "baslik": "Kazanım Değerlendirme Ölçeği", "aciklama": "26 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı", "format": "xlsx", "dosya": "dokumanlar/hazir-olcekler/4-sinif/din-kulturu/4-sinif-din-kulturu-kazanim-olcegi.xlsx" }] }
+                {
+                  "id": "turkce",
+                  "ad": "Türkçe",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/turkce/4-sinif-turkce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "matematik",
+                  "ad": "Matematik",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/matematik/4-sinif-matematik-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "fen-bilimleri",
+                  "ad": "Fen Bilimleri",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/fen-bilimleri/4-sinif-fen-bilimleri-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "sosyal-bilgiler",
+                  "ad": "Sosyal Bilgiler",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "32 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/sosyal-bilgiler/4-sinif-sosyal-bilgiler-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "insan-haklari",
+                  "ad": "İnsan Hakları, Yurttaşlık ve Demokrasi",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "29 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/insan-haklari/4-sinif-insan-haklari-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "trafik-guvenligi",
+                  "ad": "Trafik Güvenliği",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "21 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/trafik-guvenligi/4-sinif-trafik-guvenligi-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "muzik",
+                  "ad": "Müzik",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "21 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/muzik/4-sinif-muzik-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "gorsel-sanatlar",
+                  "ad": "Görsel Sanatlar",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "16 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/gorsel-sanatlar/4-sinif-gorsel-sanatlar-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "beden-egitimi",
+                  "ad": "Beden Eğitimi ve Oyun",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "25 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/beden-egitimi/4-sinif-beden-egitimi-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "ingilizce",
+                  "ad": "İngilizce",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "28 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/ingilizce/4-sinif-ingilizce-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                },
+                {
+                  "id": "din-kulturu",
+                  "ad": "Din Kültürü ve Ahlak Bilgisi",
+                  "aktif": true,
+                  "sablonlar": [
+                    {
+                      "id": "kazanim-olcegi",
+                      "baslik": "Kazanım Değerlendirme Ölçeği",
+                      "aciklama": "26 kazanım, 40 öğrenci kapasiteli, otomatik puan dağıtımlı",
+                      "format": "xlsx",
+                      "dosya": "dokumanlar/hazir-olcekler/4-sinif/din-kulturu/4-sinif-din-kulturu-kazanim-olcegi.xlsx"
+                    }
+                  ]
+                }
               ]
             }
           ]
         },
-        { "id": "veli-toplantilari", "ad": "Veli Toplantısı Tutanakları", "aciklama": "Yakında", "aktif": false, "siniflar": [] },
-        { "id": "zumre-toplantilari", "ad": "Zümre Toplantısı Tutanakları", "aciklama": "Yakında", "aktif": false, "siniflar": [] },
-        { "id": "rehberlik-planlari", "ad": "Rehberlik Planları", "aciklama": "Yakında", "aktif": false, "siniflar": [] }
+        {
+          "id": "veli-toplantilari",
+          "ad": "Veli Toplantısı Tutanakları",
+          "aciklama": "Yakında",
+          "aktif": false,
+          "siniflar": []
+        },
+        {
+          "id": "zumre-toplantilari",
+          "ad": "Zümre Toplantısı Tutanakları",
+          "aciklama": "Yakında",
+          "aktif": false,
+          "siniflar": []
+        },
+        {
+          "id": "rehberlik-planlari",
+          "ad": "Rehberlik Planları",
+          "aciklama": "Yakında",
+          "aktif": false,
+          "siniflar": []
+        }
       ]
     }
   ]
