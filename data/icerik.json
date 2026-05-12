@@ -21,8 +21,100 @@
         {
           "id": "3-sinif",
           "ad": "3. Sınıf",
-          "aktif": false,
-          "dersler": []
+          "aktif": true,
+          "dersler": [
+            {
+              "id": "matematik",
+              "ad": "Matematik",
+              "aktif": true,
+              "konular": [
+                {
+                  "id": "uzunluk-olculeri",
+                  "ad": "Uzunluk Ölçüleri",
+                  "aciklama": "cm, m, km dönüşümleri ve problemler",
+                  "aktif": true,
+                  "altKonular": [
+                    {
+                      "id": "uzunluk-calisma-kagidi",
+                      "ad": "Uzunluk Çalışma Kağıdı",
+                      "aciklama": "cm↔m ve m↔km dönüşümleri",
+                      "aktif": true,
+                      "kagitlar": [
+                        {
+                          "id": "uzunluk-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-calisma-kagidi/uzunluk-1.pdf"
+                        },
+                        {
+                          "id": "uzunluk-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-calisma-kagidi/uzunluk-2.pdf"
+                        },
+                        {
+                          "id": "uzunluk-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-calisma-kagidi/uzunluk-3.pdf"
+                        },
+                        {
+                          "id": "uzunluk-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-calisma-kagidi/uzunluk-4.pdf"
+                        },
+                        {
+                          "id": "uzunluk-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-calisma-kagidi/uzunluk-5.pdf"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "uzunluk-problemleri",
+                      "ad": "Uzunluk Problemleri",
+                      "aciklama": "Uzunluk ölçüleriyle günlük hayat problemleri",
+                      "aktif": true,
+                      "kagitlar": [
+                        {
+                          "id": "problem-1",
+                          "baslik": "Çalışma Kağıdı 1",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-problemleri/problem-1.pdf"
+                        },
+                        {
+                          "id": "problem-2",
+                          "baslik": "Çalışma Kağıdı 2",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-problemleri/problem-2.pdf"
+                        },
+                        {
+                          "id": "problem-3",
+                          "baslik": "Çalışma Kağıdı 3",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-problemleri/problem-3.pdf"
+                        },
+                        {
+                          "id": "problem-4",
+                          "baslik": "Çalışma Kağıdı 4",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-problemleri/problem-4.pdf"
+                        },
+                        {
+                          "id": "problem-5",
+                          "baslik": "Çalışma Kağıdı 5",
+                          "soruSayisi": 16,
+                          "dosya": "pdfs/3-sinif/matematik/uzunluk-olculeri/uzunluk-problemleri/problem-5.pdf"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "4-sinif",
